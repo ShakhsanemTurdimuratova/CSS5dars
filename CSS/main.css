@@ -1,0 +1,48 @@
+body{
+    background-color: lightpink;
+}
+.text{
+    color: white;
+    border: 10px solid white;
+   /* border-width: 3px;
+    border-style: solid;!*solid,dashed,dotted,double,groove,ridge,inset,outset*!
+    border-color: white;*/
+   /* border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-bottom-width: 10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color:white;*/
+    border-radius: 30px;
+    text-align: justify;/*left(default code),center,right,justify*/
+    text-transform: none;/*none(default code),uppercase,lowercase,capitalize*/
+    text-decoration:none ;/*none(default code),underline,overline,line-through*/
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+.block{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+   /* min-width: 50px;
+    min-height: 50px;*/
+    /*margin: 50px 20px 30px 40px;*/
+   /* margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;*/
+    margin: 100px auto;
+    /*padding: 50px 20px 30px 40px;*/
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
